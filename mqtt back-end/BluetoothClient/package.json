@@ -1,0 +1,19 @@
+{
+  "name": "mqttbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bluetoothClient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluetooth-serial-port": "^2.2.7",
+    "bluez": "^0.3.3",
+    "nodemon": "^2.0.4",
+    "paho-mqtt": "^1.1.0",
+    "ws": "^7.3.0"
+  }
+}
